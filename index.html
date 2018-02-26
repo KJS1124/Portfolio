@@ -2,32 +2,37 @@
 <html>
 
 <head>
+    <meta charset="ISO-8859-1">
     <title>Portfolio</title>
     <link type="text/css" rel="stylesheet" href="./css/header.css">
     <link type="text/css" rel="stylesheet" href="./css/style.css">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="./js/scroller.js"></script>
+    <script src="./js/animate.js"></script>
 </head>
 
-<body>
+<body onload="loader()">
     <div class="container">
         <header>
             <nav>
-                <div class="logo" id="logo"><a href="#"><i class="fa fa-battery-full" aria-hidden="true"></i></a></div>
+                <div class="logo" id="logo"><a href="#header"><i class="fa fa-battery-full" aria-hidden="true"></i></a></div>
                 <ul>
-                    <li><a class=".active" href="#home">Home</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Achivements</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#achivements">Achivements</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact_me">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
-        <section>Home</section>
-        <section>Education</section>
-        <section>Achivements</section>
-        <section>Projects</section>
-        <section>Contact Me</section>
-        <a href="#logo">
+        <section id="header">Home</section>
+        <section id="education">Education</section>
+        <section id="achivements">Achivements</section>
+        <section id="projects">Projects</section>
+        <section id="contact_me">Contact Me</section>
+        <a href="#header">
             <div id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
         </a>
         <footer>
@@ -36,6 +41,7 @@
             </div>
         </footer>
     </div>
+
 </body>
 
 </html>

@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     color: #666;
-    background: #c5cedd;
+    background: #fff;
     font-family: Comic Sans MS, Bookman;
     font-size: 20px;
 }
@@ -32,6 +32,7 @@ body {
     display: block;
     border-width: 1px;
     border-radius: 50%;
+    z-index: 999;
 }
 
 #return-to-top i {
@@ -49,7 +50,7 @@ body {
 }
 
 footer {
-    position: relative;
+    position: inherit;
     height: 80px;
     width: 100%;
     background-color: #187a49;
@@ -59,4 +60,27 @@ footer {
     text-align: center;
     color: #fff;
     padding: 20px;
+}
+
+#header {
+    padding-top: 80px;
+    height: 400px;
+}
+
+#education {
+    background-color: #92CD;
+    height: 400px;
+}
+
+#achivements {
+    height: 400px;
+}
+
+#projects {
+    height: 800px;
+    background-color: #0099CC;
+}
+
+#contact_me {
+    height: 400px;
 }
