@@ -3,6 +3,9 @@ header {
     width: 100%;
     box-shadow: 0 2px 5px #888888;
     background-color: #187a49;
+    opacity: 0;
+    -webkit-transition: 2s;
+    transition: 2s;
 }
 
 header nav {
