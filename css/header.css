@@ -1,8 +1,8 @@
 header {
     position: fixed;
     width: 100%;
-    box-shadow: 0 2px 5px #888888;
-    background-color: #187a49;
+    //box-shadow: 0 2px 5px #888888;
+    background-color: #3F51B5;
     opacity: 0;
     -webkit-transition: 2s;
     transition: 2s;
@@ -38,7 +38,7 @@ header nav .logo a {
 }
 
 header nav .logo a:hover {
-    color: #1f9b5d;
+    color: #303F9F;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -48,17 +48,17 @@ header nav ul a {
     color: #fff;
     display: block;
     padding: 23px;
-    border-bottom: solid 2px #187a49;
+    border-bottom: solid 2px #3F51B5;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
 header nav ul a:hover {
-    background-color: #1f9b5d;
+    background-color: #303F9F;
     border-bottom: solid 2px #fff;
 }
 
 header nav ul .active {
-    background-color: #1f9b5d;
+    background-color: #303F9F;
     border-bottom: solid 2px #fff;
 }
