@@ -3,7 +3,7 @@ body {
     padding: 0;
     color: #666;
     background: #fff;
-    font-family: Comic Sans MS, Bookman;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -27,7 +27,7 @@ body {
     right: 30px;
     width: 50px;
     height: 50px;
-    background-color: #187a49;
+    background-color: #FF5252;
     text-align: center;
     display: block;
     border-width: 1px;
@@ -53,7 +53,7 @@ footer {
     position: inherit;
     height: 80px;
     width: 100%;
-    background-color: #187a49;
+    background-color: #3F51B5;
 }
 
 .footer_decorator {
@@ -69,28 +69,32 @@ header {
 #header {
     padding-top: 80px;
     height: 400px;
+	
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to right,#303F9F,#283593)
+
 }
 
 #education {
-    background-color: #92CD;
     height: 400px;
 }
 
 #achivements {
     height: 400px;
+	background-color:#f8f9fa
 }
 
 #projects {
     height: 800px;
-    background-color: #0099CC;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+	
 }
 
 #contact_me {
     height: 500px;
-    background-color: rgb(128, 16, 103);
+	background-color:#f8f9fa
 }
 
 #project-container {
@@ -113,13 +117,13 @@ header {
 
 .card-title {
     font-size: 1.5em;
-    color: black;
+    color:black;
     text-align: center;
 }
 
 .card-desc {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #fff;
+  
+    color:#757575;
     margin-top: 10px;
     text-align: center
 }
